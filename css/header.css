@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.header__menu {
+.header-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -15,7 +15,7 @@
 }
 
 
-.header__menu a {
+.header-menu a {
     font-size: 1.125rem;
     line-height: 1.3rem;
     padding: 10px 20px;
@@ -26,13 +26,13 @@
 
 @media (max-width: 800px) {
 
-    .header {
+    header {
         flex-direction: column;
         gap: 40px;
         padding: 20px;
     }
 
-    .header a {
+    header a {
         background: #f5f5f5;
         border-radius: 4px;
     }
